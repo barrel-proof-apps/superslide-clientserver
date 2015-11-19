@@ -1,0 +1,15 @@
+<document>
+   <menuBarTemplate>
+      <menuBar>
+         <menuItem id="navigation_top_movies" data-identifier="agenda">
+            <title>Agenda</title>
+         </menuItem>
+         <menuItem id="navigation_genres" data-identifier="index">
+            <title>Financials</title>
+         </menuItem>
+         <menuItem id="navigation_search" data-identifier="search">
+            <title>Markets</title>
+         </menuItem>
+      </menuBar>
+   </menuBarTemplate>
+</document>

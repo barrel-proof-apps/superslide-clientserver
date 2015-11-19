@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94C7310B1BFD32BA00EDF944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7310A1BFD32BA00EDF944 /* AppDelegate.swift */; };
+		94C731121BFD32BA00EDF944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C731111BFD32BA00EDF944 /* Assets.xcassets */; };
+		94C7311D1BFD32BA00EDF944 /* SuperSlideTvmlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7311C1BFD32BA00EDF944 /* SuperSlideTvmlTests.swift */; };
+		94C731281BFD32BA00EDF944 /* SuperSlideTvmlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C731271BFD32BA00EDF944 /* SuperSlideTvmlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94C731191BFD32BA00EDF944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C730FF1BFD32BA00EDF944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C731061BFD32BA00EDF944;
+			remoteInfo = SuperSlideTvml;
+		};
+		94C731241BFD32BA00EDF944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C730FF1BFD32BA00EDF944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C731061BFD32BA00EDF944;
+			remoteInfo = SuperSlideTvml;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94C731071BFD32BA00EDF944 /* SuperSlideTvml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSlideTvml.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C7310A1BFD32BA00EDF944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94C731111BFD32BA00EDF944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94C731131BFD32BA00EDF944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C731181BFD32BA00EDF944 /* SuperSlideTvmlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperSlideTvmlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C7311C1BFD32BA00EDF944 /* SuperSlideTvmlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSlideTvmlTests.swift; sourceTree = "<group>"; };
+		94C7311E1BFD32BA00EDF944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C731231BFD32BA00EDF944 /* SuperSlideTvmlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperSlideTvmlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C731271BFD32BA00EDF944 /* SuperSlideTvmlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSlideTvmlUITests.swift; sourceTree = "<group>"; };
+		94C731291BFD32BA00EDF944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C731041BFD32BA00EDF944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C731151BFD32BA00EDF944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C731201BFD32BA00EDF944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94C730FE1BFD32BA00EDF944 = {
+			isa = PBXGroup;
+			children = (
+				94C731091BFD32BA00EDF944 /* SuperSlideTvml */,
+				94C7311B1BFD32BA00EDF944 /* SuperSlideTvmlTests */,
+				94C731261BFD32BA00EDF944 /* SuperSlideTvmlUITests */,
+				94C731081BFD32BA00EDF944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C731081BFD32BA00EDF944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C731071BFD32BA00EDF944 /* SuperSlideTvml.app */,
+				94C731181BFD32BA00EDF944 /* SuperSlideTvmlTests.xctest */,
+				94C731231BFD32BA00EDF944 /* SuperSlideTvmlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C731091BFD32BA00EDF944 /* SuperSlideTvml */ = {
+			isa = PBXGroup;
+			children = (
+				94C7310A1BFD32BA00EDF944 /* AppDelegate.swift */,
+				94C731111BFD32BA00EDF944 /* Assets.xcassets */,
+				94C731131BFD32BA00EDF944 /* Info.plist */,
+			);
+			path = SuperSlideTvml;
+			sourceTree = "<group>";
+		};
+		94C7311B1BFD32BA00EDF944 /* SuperSlideTvmlTests */ = {
+			isa = PBXGroup;
+			children = (
+				94C7311C1BFD32BA00EDF944 /* SuperSlideTvmlTests.swift */,
+				94C7311E1BFD32BA00EDF944 /* Info.plist */,
+			);
+			path = SuperSlideTvmlTests;
+			sourceTree = "<group>";
+		};
+		94C731261BFD32BA00EDF944 /* SuperSlideTvmlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94C731271BFD32BA00EDF944 /* SuperSlideTvmlUITests.swift */,
+				94C731291BFD32BA00EDF944 /* Info.plist */,
+			);
+			path = SuperSlideTvmlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94C731061BFD32BA00EDF944 /* SuperSlideTvml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C7312C1BFD32BA00EDF944 /* Build configuration list for PBXNativeTarget "SuperSlideTvml" */;
+			buildPhases = (
+				94C731031BFD32BA00EDF944 /* Sources */,
+				94C731041BFD32BA00EDF944 /* Frameworks */,
+				94C731051BFD32BA00EDF944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperSlideTvml;
+			productName = SuperSlideTvml;
+			productReference = 94C731071BFD32BA00EDF944 /* SuperSlideTvml.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94C731171BFD32BA00EDF944 /* SuperSlideTvmlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C7312F1BFD32BA00EDF944 /* Build configuration list for PBXNativeTarget "SuperSlideTvmlTests" */;
+			buildPhases = (
+				94C731141BFD32BA00EDF944 /* Sources */,
+				94C731151BFD32BA00EDF944 /* Frameworks */,
+				94C731161BFD32BA00EDF944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C7311A1BFD32BA00EDF944 /* PBXTargetDependency */,
+			);
+			name = SuperSlideTvmlTests;
+			productName = SuperSlideTvmlTests;
+			productReference = 94C731181BFD32BA00EDF944 /* SuperSlideTvmlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94C731221BFD32BA00EDF944 /* SuperSlideTvmlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C731321BFD32BA00EDF944 /* Build configuration list for PBXNativeTarget "SuperSlideTvmlUITests" */;
+			buildPhases = (
+				94C7311F1BFD32BA00EDF944 /* Sources */,
+				94C731201BFD32BA00EDF944 /* Frameworks */,
+				94C731211BFD32BA00EDF944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C731251BFD32BA00EDF944 /* PBXTargetDependency */,
+			);
+			name = SuperSlideTvmlUITests;
+			productName = SuperSlideTvmlUITests;
+			productReference = 94C731231BFD32BA00EDF944 /* SuperSlideTvmlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C730FF1BFD32BA00EDF944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "andrew zuercher";
+				TargetAttributes = {
+					94C731061BFD32BA00EDF944 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					94C731171BFD32BA00EDF944 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 94C731061BFD32BA00EDF944;
+					};
+					94C731221BFD32BA00EDF944 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 94C731061BFD32BA00EDF944;
+					};
+				};
+			};
+			buildConfigurationList = 94C731021BFD32BA00EDF944 /* Build configuration list for PBXProject "SuperSlideTvml" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94C730FE1BFD32BA00EDF944;
+			productRefGroup = 94C731081BFD32BA00EDF944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C731061BFD32BA00EDF944 /* SuperSlideTvml */,
+				94C731171BFD32BA00EDF944 /* SuperSlideTvmlTests */,
+				94C731221BFD32BA00EDF944 /* SuperSlideTvmlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C731051BFD32BA00EDF944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C731121BFD32BA00EDF944 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C731161BFD32BA00EDF944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C731211BFD32BA00EDF944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C731031BFD32BA00EDF944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C7310B1BFD32BA00EDF944 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C731141BFD32BA00EDF944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C7311D1BFD32BA00EDF944 /* SuperSlideTvmlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C7311F1BFD32BA00EDF944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C731281BFD32BA00EDF944 /* SuperSlideTvmlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94C7311A1BFD32BA00EDF944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C731061BFD32BA00EDF944 /* SuperSlideTvml */;
+			targetProxy = 94C731191BFD32BA00EDF944 /* PBXContainerItemProxy */;
+		};
+		94C731251BFD32BA00EDF944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C731061BFD32BA00EDF944 /* SuperSlideTvml */;
+			targetProxy = 94C731241BFD32BA00EDF944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94C7312A1BFD32BA00EDF944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		94C7312B1BFD32BA00EDF944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C7312D1BFD32BA00EDF944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SuperSlideTvml/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrelproofapps.SuperSlideTvml;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94C7312E1BFD32BA00EDF944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SuperSlideTvml/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrelproofapps.SuperSlideTvml;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94C731301BFD32BA00EDF944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperSlideTvmlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrelproofapps.SuperSlideTvmlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperSlideTvml.app/SuperSlideTvml";
+			};
+			name = Debug;
+		};
+		94C731311BFD32BA00EDF944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperSlideTvmlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrelproofapps.SuperSlideTvmlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperSlideTvml.app/SuperSlideTvml";
+			};
+			name = Release;
+		};
+		94C731331BFD32BA00EDF944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperSlideTvmlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrelproofapps.SuperSlideTvmlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperSlideTvml;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		94C731341BFD32BA00EDF944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperSlideTvmlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrelproofapps.SuperSlideTvmlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperSlideTvml;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C731021BFD32BA00EDF944 /* Build configuration list for PBXProject "SuperSlideTvml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C7312A1BFD32BA00EDF944 /* Debug */,
+				94C7312B1BFD32BA00EDF944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C7312C1BFD32BA00EDF944 /* Build configuration list for PBXNativeTarget "SuperSlideTvml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C7312D1BFD32BA00EDF944 /* Debug */,
+				94C7312E1BFD32BA00EDF944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94C7312F1BFD32BA00EDF944 /* Build configuration list for PBXNativeTarget "SuperSlideTvmlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C731301BFD32BA00EDF944 /* Debug */,
+				94C731311BFD32BA00EDF944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94C731321BFD32BA00EDF944 /* Build configuration list for PBXNativeTarget "SuperSlideTvmlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C731331BFD32BA00EDF944 /* Debug */,
+				94C731341BFD32BA00EDF944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94C730FF1BFD32BA00EDF944 /* Project object */;
+}

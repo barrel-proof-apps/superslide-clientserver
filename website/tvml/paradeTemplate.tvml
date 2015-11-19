@@ -1,0 +1,27 @@
+<document>
+   <paradeTemplate>
+      <list>
+         <header>
+            <title>Movie Genres</title>
+         </header>
+         <section>
+            <listItemLockup>
+               <title>Action</title>
+            </listItemLockup>
+            <listItemLockup>
+               <title>Comedy</title>
+            </listItemLockup>
+            <listItemLockup>
+               <title>Horror</title>
+            </listItemLockup>
+         </section>
+         <relatedContent>
+            <imgDeck>
+               <img src="http://localhost:3000/tvml/49ers_250x375.png "/>
+               <img src="http://localhost:3000/tvml/falcons_250x375.png "/>
+               <img src="http://localhost:3000/tvml/seahawks_250x375.png "/>
+            </imgDeck>
+         </relatedContent>
+      </list>
+   </paradeTemplate>
+</document>

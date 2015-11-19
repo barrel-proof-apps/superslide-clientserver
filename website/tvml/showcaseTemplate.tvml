@@ -1,0 +1,34 @@
+<document>
+   <showcaseTemplate mode="showcase">
+      <background>
+         <img src="path to images on your server/Car_Movie_1920x1080.png" />
+      </background>
+      <banner>
+         <title>Scenes</title>
+         <row>
+            <button>
+               <text>Slideshow</text>
+            </button>
+            <button>
+               <text>Screensaver</text>
+            </button>
+         </row>
+      </banner>
+      <carousel>
+         <section>
+            <lockup>
+               <img src="http://localhost:3000/tvml/49ers_250x375.png" width="250" height="375" />
+               <title>Scene 1</title>
+            </lockup>
+            <lockup>
+              <img src="http://localhost:3000/tvml/falcons_250x375.png"  width="250" height="375" />
+              <title>Scene 2</title>
+            </lockup>
+            <lockup>
+               <img src="http://localhost:3000/tvml/seahawks_250x375.jpg" width="250" height="375" />
+               <title>Scene 3</title>
+            </lockup>
+         </section>
+      </carousel>
+   </showcaseTemplate>
+</document>
